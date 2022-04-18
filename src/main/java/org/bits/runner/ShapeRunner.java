@@ -13,6 +13,14 @@ public class ShapeRunner {
 		System.out.println("Rectangle - Area: " + r.area());
 		System.out.println("Rectangle - perimeter: " + r.perimeter());
 
+		/*
+		 * Adding another test case for rectangle
+		 */
+		Rectangle r2 = new Rectangle(5.0, breadth);
+
+		System.out.println("Rectangle - Area: " + r2.area());
+		System.out.println("Rectangle - perimeter: " + r2.perimeter());
+
 		// Circle area and parameter
 		double radius = 2.0;
 		Circle c = new Circle(radius);
