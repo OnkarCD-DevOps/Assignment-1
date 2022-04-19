@@ -3,6 +3,7 @@ package org.bits.runner;
 import org.bits.ifc.Shape;
 import org.bits.impl.Circle;
 import org.bits.impl.Rectangle;
+import org.bits.impl.Square;
 
 public class ShapeRunner {
 	public static void main(String[] args) {
@@ -13,8 +14,6 @@ public class ShapeRunner {
 		System.out.println("------------Shape:Rectangle---------------");
 		System.out.println("Rectangle - Area: " + rect1.area());
 		System.out.println("Rectangle - perimeter: " + rect1.perimeter());
-
-	
 
 		/*
 		 * Adding another test case for rectangle
@@ -32,5 +31,8 @@ public class ShapeRunner {
 		System.out.println("Circle - Area: " + c.area());
 		System.out.println("Circle - perimeter: " + c.perimeter());
 
+		Shape square = new Square(4l);
+		System.out.println("Area of square - " + square.area());
+		System.out.println("Perimeter of square - " + square.perimeter());
 	}
 }
