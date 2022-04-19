@@ -3,15 +3,8 @@ package org.bits.runner;
 import org.bits.ifc.Shape;
 import org.bits.impl.Circle;
 import org.bits.impl.Rectangle;
-<<<<<<< HEAD
 import org.bits.impl.RightTriangle;
-=======
-<<<<<<< HEAD
 import org.bits.impl.Square;
-=======
-import org.bits.impl.RightTriangle;
->>>>>>> 908a163 (Add feature2)
->>>>>>> c9325d1 (Add changes for feature2)
 
 public class ShapeRunner {
 	public static void main(String[] args) {
@@ -46,7 +39,6 @@ public class ShapeRunner {
 		Shape rgtTriangle = new RightTriangle(3, 4);
 		System.out.println("Area of Right Triangle - " + rgtTriangle.area());
 		System.out.println("Perimeter of right triangle - " + rgtTriangle.perimeter());
-
 
 	}
 }
